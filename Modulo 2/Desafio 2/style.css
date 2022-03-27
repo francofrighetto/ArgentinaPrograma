@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+}
+
+header nav{
+    display: flex;
+    background-color: #91B9BA;
+    margin: auto 0%;
+}
+.logo {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+}
+
+header nav h1 {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 30px;
+}
+.logo img {
+    margin: auto 1%;
+}
+
+header nav ul {
+    display: flex;
+    width: 60%;
+    margin: auto 2%;
+}
+
+ul {
+    list-style:none;
+
+}
+
+.derecha{
+    margin-left: 60%;
+}
+
+.derecha li {
+    margin: 2%;
+}
+
+.container {
+    width: 80%;
+    margin: 2% auto;
+}
+
+
+.servicios  {
+    display: flex;
+    text-align: center;
+    padding: 0%;
+}
+
+.servicios div {
+    width: 30%;
+    margin: auto;
+    padding: 0%;
+    border: gainsboro solid;
+    border-radius: 3%;
+}
+
+h2 {
+    margin-left: 45%;
+    margin-top: 4%;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #91B9BA;
+    margin-top: 2%;
+}
+footer ul {
+    display: flex;
+    margin-left: 30%;
+}
+footer ul li {
+    margin: auto 2%;
+}
+
+p {
+    text-align: center;
+}
+
+.importante {
+    font-size: 17px;
+}
+a {
+    /*text-decoration: none;*/
+    font-size: 16px;
+    color: black;
+}
+/*
+{
+  }*/
