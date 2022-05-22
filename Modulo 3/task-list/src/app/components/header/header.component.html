@@ -1,1 +1,9 @@
-<h1>{{title}}</h1>
+<header>
+    <h1>{{title}}</h1>
+    <!-- le paso un texto por parametro-->
+    <app-button
+    color="green"
+    text="Add Taks"
+    (btnClick)="toggleAddTask()"
+    ></app-button>
+</header>
